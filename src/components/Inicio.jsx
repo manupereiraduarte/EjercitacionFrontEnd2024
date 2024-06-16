@@ -16,7 +16,6 @@ function Inicio() {
       <Link to="/articulosfamilias" className="btn btn-lg btn-primary">
           <i className="fa fa-search"> </i>  Ver Articulos Familias
     </Link>
-
     </div>
   );
 }

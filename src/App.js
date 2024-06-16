@@ -9,6 +9,7 @@ import { ModalDialog } from "./components/ModalDialog";
 import { ArticulosJWT } from "./components/articulosJWT/ArticulosJWT";
 import {RequireAuth} from "./components/RequiereAuth" ;
 import { Login } from "./components/login/Login";
+import { Empleados } from "./components/empleados/Empleados";
 
 
 
@@ -23,6 +24,7 @@ function App() {
   <Route path="/inicio" element={<Inicio />} />
   <Route path="/articulosfamilias" element={<ArticulosFamilias />} />
   <Route path="/articulos" element={<Articulos />} />
+  <Route path="/empleados" element={<Empleados />} />
   <Route
     path="/articulosjwt"
     element={
