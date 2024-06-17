@@ -68,7 +68,6 @@ function Empleados() {
       FechaNacimiento: "",
       Suspendido: false,
     });
-    //modalDialogService.Alert("preparando el Alta...");
   }
   
   function Imprimir() {
